@@ -121,12 +121,13 @@ h2 {
 
 }
 .section2 {
-	/*z-index: 9;*/
 	position: relative;
+    display: inline-block;
+	vertical-align: top;
 	width: 760px;
 	height: 900px;
 	background-color: #FFFFFF;
-	margin: 420px 540px 40px 0px;
+	margin-top: 40px;
 }
 .img3 {
 	width: 760px;
@@ -156,4 +157,26 @@ h2 {
 	left: 50%;
 	transform: translate(-50%, -50%);
 
+}
+.section3 {
+	position: relative;
+    display: inline-block;
+	vertical-align: top;
+	width: 360px;
+	height: 900px;
+	background-color: #FFFFFF;
+	margin-left: 40px;
+	margin-top: 105px;
+}
+.section {
+    width: 1290px;
+	height: 996px;
+	margin-left: 140px;
+
+}
+.img7 {
+	width: 360px;
+	height: 210px;
+	border-radius: 1%;
+	margin-bottom: 102px;
 }
